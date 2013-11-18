@@ -1,0 +1,26 @@
+{
+  "name": "rest-api-spec",
+  "version": "0.0.0",
+  "description": "This repository contains a collection of JSON files which describe the [Elasticsearch](http://elasticsearch.org) HTTP API.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --require should api_test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spenceralger/elasticsearch-rest-api-spec.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/spenceralger/elasticsearch-rest-api-spec/issues"
+  },
+  "homepage": "https://github.com/spenceralger/elasticsearch-rest-api-spec",
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "should": "~2.1.0"
+  }
+}
